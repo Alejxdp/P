@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>13 de Abril</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="estilos-comunes.css">
+  <link rel="icon" href="icons/escudo.png" type="image/png">
+
+</head>
+<body>
+
+  <div class="content">
+        <header class="header",class="fade-in fade-delay-3">
+            <img src="icons/escudo.png" alt="Escudo del colegio" class="logo">
+            
+
+            <div class="header-text">
+            <h1 class="fade-in fade-delay-1">Unidad Educativa Fiscal 13 de Abril</h1>
+            <p>Técnicos al servicio de la comunidad</p>
+            </div>
+            <div class="header-links">
+                <a href="https://13deabril.edu.ec/">PAGINA OFICIAL</a>
+                <a href="contacto.html">CONTACTO</a>
+            </div>
+        </header>
+
+        <section id="info-general" class="row",class="fade-in fade-delay-2">
+            <div class="column",class="fade-in fade-delay-3">
+            <h3>¿Quiénes Somos?</h3>
+            <p>La Institución ofrece el bachillerato técnico en las modalidades de Informática, Electrónica de consumo, Electricidad, Contabilidad, además del bachillerato en ciencias. Para esto disponemos de modernos laboratorios debidamente equipados para que el estudiante adquiera la destreza técnica necesaria en la especialidad respectiva.</p>
+            </div>
+            <div class="column",class="fade-in fade-delay-3">
+            <h3>Niveles Educativos</h3>
+            <p>Ofrecemos educación desde nivel inicial hasta secundaria, con un equipo docente altamente calificado.</p>
+            </div>
+        </section>
+
+        <section id="boton-mostrar" class="materias-section">
+        <button id="materias-btn">MATERIAS</button>
+        </section>
+
+        <section id="materias-container" class="hidden">
+        <h2>Materias Técnicas</h2>
+
+        <div class="materia-card">
+            <div class="card-inner">
+            <div class="card-front">
+                <img src="icons/web-design.svg" alt="Icono Web" class="icono-materia">
+                <h3>Diseño y desarrollo web</h3>
+                <button class="info-btn">Infografía</button>
+            </div>
+            <div class="card-back">
+                <img src="infografias/web-design.png" alt="Infografía Web" class="img-info">
+                <p>Aprende a crear sitios web modernos con HTML, CSS y JavaScript.</p>
+                <button class="info-btn" onclick="location.href='Diseño.html'">Ver más</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="materia-card">
+            <div class="card-inner">
+            <div class="card-front">
+                <img src="icons/programming.svg" alt="Icono Programación" class="icono-materia">
+                <h3>Programación y bases de datos</h3>
+                <button class="info-btn">Infografía</button>
+            </div>
+            <div class="card-back">
+                <img src="infografias/programming.png" alt="Infografía Programación" class="img-info">
+                <p>Domina lenguajes de programación y estructuras de datos relacionales.</p>
+                <button class="info-btn" onclick="location.href='programación.html'">Ver más</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="materia-card">
+            <div class="card-inner">
+            <div class="card-front">
+                <img src="icons/support.svg" alt="Icono Soporte" class="icono-materia">
+                <h3>Soporte técnico</h3>
+                <button class="info-btn">Infografía</button>
+            </div>
+            <div class="card-back">
+                <img src="infografias/support.png" alt="Infografía Soporte" class="img-info">
+                <p>Resuelve problemas de hardware, software y redes con eficiencia.</p>
+                <button class="info-btn" onclick="location.href='Soporte.html'">Ver más</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="materia-card">
+            <div class="card-inner">
+            <div class="card-front">
+                <img src="icons/os.svg" alt="Icono Sistemas" class="icono-materia">
+                <h3>Sistemas operativos y redes</h3>
+                <button class="info-btn">Infografía</button>
+            </div>
+            <div class="card-back">
+                <img src="infografias/os.png" alt="Infografía Sistemas" class="img-info">
+                <p>Comprende el funcionamiento de Windows, Linux y la configuración de redes informáticas.</p>
+                <button class="info-btn" onclick="location.href='sistemas.html'">Ver más</button>
+            </div>
+            </div>
+        </div>
+
+        <button id="volver-btn" class="hidden">Volver</button>
+        </section>
+  </div>
+
+
+  <footer class="footer",class="fade-in fade-delay-4">
+    <p>&copy; 2025 Institución Educativa 13 de Abril. Todos los derechos reservados.</p>
+    <p>Created by Alejandro Demera</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
